@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background-image: url("lion.jpg"); /* صورة الأسد */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Dark overlay */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Content */
+.content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    margin-left: 80px;
+}
+
+.subtitle {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+h1 span {
+    color: #bfbfbf;
+}
+
+.description {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.85;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 28px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ddd;
+}
+
